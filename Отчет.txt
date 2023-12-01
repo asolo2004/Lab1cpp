@@ -1,0 +1,108 @@
+Привожу примеры выполнения программ, скопировано из консоли:
+1. Вычислить площадь трапеции с основаниями b1 и b2 и высотой h.
+
+	Enter information about the trapezoid separated by space. First the bases, then the heights.(Double): 10 5 4
+	Area of trapezoid: 30
+
+2. Вычислить длину окружности и площадь круга радиуса г.
+
+	Enter information about the circle. Only radius.(Double): 6
+	Circumference: 37.6991
+	Area of circle: 113.097	
+	
+3. Вычислить площадь прямоугольного треугольника и гипотенузу.
+
+	Enter information about right triangle separated by space. Two sides.(Double): 10 15
+	Area of triangle: 75
+	Hypotenuse: 18.0278
+
+4. Дано десятичное четырехзначное число. Найти сумму его цифр.
+
+	Enter decimal four digit number. (Int): 1234
+	Sum of digits: 10
+
+5. Выполнить переход от декартовых координат к полярным.
+
+	Enter information about coordinate in the Cartesian system, x and y separated by space.(Double): 6 10
+	R: 11.6619
+	Angle in radians: 1.03038
+
+6. Выполнить переход от полярных координат к декартовым.
+
+	Enter information about coordinate in polar coordinate system, radius and angle in radians separated by space.(Double): 11.6 1.03
+	X: 5.9719
+	Y: 9.94467
+
+7. Найти корни квадратного уравнения.
+
+	Enter information about the equation. A, b, c separated by space.(Double; ax^2 + bx + c = 0): 4 6 -6
+	x1=0.686141
+	x2=-2.18614
+
+8.Имеется треугольник со сторонами а, b, с. Найти медианы треугольника, сторонами которого являются медианы исходного треугольника. 	
+
+	Enter information about triangle separated by space. Three sides.(Double): 4 6 8
+	Medians: 6.78233 5.56776 3.16228
+
+9. Идет k-я секунда суток. Определить, сколько целых часов и целых минут прошло с начала суток.
+
+	Enter seconds.(Int): 36600
+	Hours:10
+	Minutes:10
+
+10. Определить, является ли треугольник со сторонами a, b, c равнобедренным.
+
+	Enter information about triangle separated by space. Three sides.(Double): 6 6 8
+	It is a isosceles triangle
+
+11. Вычислить стоимость покупки с учётом скидки. Скидка в 10% предоставляется, если сумма покупки превышает 1000 рублей.
+
+	Enter purchase price.(Double): 1500
+	Final purchase price: 1350
+
+12. Дать рекомендации пользователю с известным ростом и весом похудеть или поправиться, если идеальный вес определяется формулой (рост - 100 = идеальный вес).
+
+	Enter height, weight separated by space.(Double): 180 81
+	You should lose weight.
+
+13. Программа генерирует два случайных числа в диапазоне от 1 до 9. Тестируемый вводит результат произведения этих чисел. Программа сообщает тестируемому ошибся он или нет.
+
+	Solve this product of two numbers: 6 * 1 = (type in Int): 6
+	True
+
+14. Написать программу вычисления стоимости переговоров, если по субботам и воскресеньям предоставляется скидка 20%. Ввести продолжительность разговора и день недели(число от 1 до 7).
+
+	Enter the duration of the conversation in hours and the day of the week separated by a space.(Int): 7 7
+	Price of negotiations with discount(Price is 1 per hour): 5.6
+
+15. Ввести с клавиатуры номер месяца. Выдать сообщение о названии месяца и времени года.
+
+	Enter month number (Int): 4
+	Month is April, spring
+
+16. Определить, является ли шестизначное число "счастливым"
+
+	Enter decimal six digit number. (Int): 654807
+	Lucky number
+
+17. Написать программу, которая при вводе числа в диапазоне от 1 до 99 добавляет к нему слово "копейка" в правильной форме.
+
+	Введите число копеек. (Int): 15
+	15 копеек
+
+18. Дано натуральное четырехзначное число. Выяснить, является ли оно палиндромом.
+
+	Enter decimal four digit number. (Int) : 1001
+	It is a palindrome
+
+19. Дано трёхзначное число. Определить: 19.1 является ли произведение его цифр больше числа b 19.2 кратна ли 7 сумма его цифр.
+
+	Enter decimal three digit number. (Int) : 511
+	Enter number b for comparison. (Int) : 6
+	Multiplication of numerics is lower than number b.
+	Sum of numerics is a multiple of seven
+
+20. Даны вещественные положительные числа a, b, c, d. Выяснить, можно ли прямоугольник со сторонами a, b поместить в прямоугольник со сторонами c, d так, чтобы стороны одного прямоугольника были параллельны сторонам другого.
+
+	Enter information about rectangles separated by space. Four numbers: a, b, c, d.(Double): 4 6 7 5
+	Yes, it is possible to fit a rectangle with sides a and b into a rectangle with sides c and d under given conditions
