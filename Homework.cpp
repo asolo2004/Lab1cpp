@@ -1,7 +1,6 @@
 ﻿#define _USE_MATH_DEFINES
 #include <iostream>
 #include <cmath>
-#define _USE_MATH_DEFINES
 void task1(){
     double b1, b2, h;
     std::cout << "Enter information about the trapezoid separated by space. First the bases, then the heights.(Double): ";
